@@ -1,0 +1,38 @@
+.h1 {
+  text-align: center;
+}
+
+.me {
+  display: block;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  background-color: rgba(171, 0, 0, 0.898);
+}
+
+.nav a {
+  color: aliceblue;
+  font-style: normal;
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.nav p {
+  font-size: 2em;
+}
+
+.main {
+}
+
+.para {
+  width: 400px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
