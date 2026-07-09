@@ -10,13 +10,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(40, 36, 36);
 }
 
 .name {
   margin-left: 15px;
   font-size: 1.5rem;
-  color: rgb(229, 159, 94);
+  color: rgb(132, 75, 21);
 }
 
 .nav-links {
@@ -29,7 +29,7 @@
 }
 
 .nav-links a {
-  color: rgb(229, 159, 94);
+  color: rgb(132, 75, 21);
   text-decoration: none;
 }
 
@@ -64,8 +64,8 @@
 .footer {
   display: flex;
   justify-content: center;
-  background-color: black;
-  color: rgb(229, 159, 94);
+  background-color: rgb(40, 36, 36);
+  color: rgb(132, 75, 21);
 }
 
 /* Separating html pages with a comment, below is ABOUT page */
@@ -100,7 +100,7 @@
 /* below is portfolio page */
 
 .container {
-  border: 6px rgb(229, 159, 94);
+  border: 6px rgb(132, 75, 21);
   border-style: outset;
   margin-bottom: 10px;
 }
