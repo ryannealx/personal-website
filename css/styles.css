@@ -3,6 +3,7 @@
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
   margin: 0;
+  background-color: rgb(243, 233, 220);
 }
 
 .header {
@@ -74,6 +75,28 @@
   width: 64ch;
 }
 
+.header-about {
+  h1 {
+    justify-self: center;
+  }
+}
+
+.about-p {
+  text-align: center;
+}
+
+.about-h2 {
+  border-top: 2px solid black;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.about-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* below is portfolio page */
 
 .container {
@@ -89,4 +112,60 @@
 #portfolio-content {
   margin: 0 auto;
   width: 64ch;
+}
+
+.portfolio-p {
+  justify-self: center;
+}
+
+/* below is contact page */
+
+#contact-content {
+  width: 60ch;
+  margin: 0 auto;
+}
+
+.contact-h1 {
+  justify-self: center;
+}
+
+.contact-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: grid;
+  flex-direction: column;
+  gap: 6px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5fr;
+
+  .contact-name {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+  }
+
+  .contact-email {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+  }
+
+  .contact-message {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+  }
+
+  button {
+    background-color: rgb(229, 159, 94);
+    margin-top: 7px;
+  }
 }
